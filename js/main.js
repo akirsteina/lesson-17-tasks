@@ -27,7 +27,7 @@ console.log('-----------------------')
 // Task 3 - FizBazz
 console.log('Task 3: Fizz Bazz for numbers from 15 to 1')
 const fizzBazz = 15;
-for (i = fizzBazz; i > 0; i--) {
+for (let i = fizzBazz; i > 0; i--) {
     if (i % 2 === 0 && i % 3 === 0) {
         console.log('Fizz Bazz');
     } else if (i % 3 == 0) {
